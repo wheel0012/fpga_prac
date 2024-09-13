@@ -1,0 +1,13 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sim_1/new/dc1_tb.v,1726200113,verilog,,,,dc1_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sim_1/new/ec1_tb.v,1726202590,verilog,,,,ec1_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sim_1/new/fa1_tb.v,1726188666,verilog,,,,fa1_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sim_1/new/ha1_tb.v,1726160888,verilog,,,,ha1_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sources_1/new/dc1.v,1726201466,verilog,,C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sim_1/new/dc1_tb.v,,dc1,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sources_1/new/ec1.v,1726202232,verilog,,C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sim_1/new/ec1_tb.v,,ec1,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sources_1/new/fa1.v,1726198053,verilog,,C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sim_1/new/fa1_tb.v,,fa1,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sources_1/new/ha1.v,1726160212,verilog,,C:/Users/wheel/vhdl_prac/Chapter2/Chapter2.srcs/sim_1/new/ha1_tb.v,,ha1,,,,,,,,

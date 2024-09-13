@@ -1,0 +1,11 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wheel/vhdl_prac/lab2_proj/lab2_proj.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab2_proj/lab2_proj.srcs/sim_1/new/BCDa_tb.v,1726212959,verilog,,,,BCDa_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab2_proj/lab2_proj.srcs/sim_1/new/dc4x16_tb.v,1726203670,verilog,,,,dc4x16_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab2_proj/lab2_proj.srcs/sim_1/new/fa4bit_tb.v,1726215165,verilog,,,,fa4bit_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab2_proj/lab2_proj.srcs/sources_1/new/BCDa.v,1726213129,verilog,,C:/Users/wheel/vhdl_prac/lab2_proj/lab2_proj.srcs/sim_1/new/BCDa_tb.v,,BCDa,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab2_proj/lab2_proj.srcs/sources_1/new/dc4x16.v,1726203453,verilog,,C:/Users/wheel/vhdl_prac/lab2_proj/lab2_proj.srcs/sim_1/new/dc4x16_tb.v,,dc4x16,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab2_proj/lab2_proj.srcs/sources_1/new/fa4bit.v,1726209307,verilog,,C:/Users/wheel/vhdl_prac/lab2_proj/lab2_proj.srcs/sim_1/new/fa4bit_tb.v,,fa4bit,,,,,,,,
