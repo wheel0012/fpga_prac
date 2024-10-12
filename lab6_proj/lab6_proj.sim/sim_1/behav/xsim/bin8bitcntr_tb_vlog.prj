@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab6_proj.srcs/sources_1/new/jkff.v" \
+"../../../../lab6_proj.srcs/sources_1/new/bin8bitcntr.v" \
+"../../../../lab6_proj.srcs/sources_1/new/graycntr_3bit.v" \
+"../../../../lab6_proj.srcs/sources_1/new/decoder3x8.v" \
+"../../../../lab6_proj.srcs/sources_1/new/bincntr.v" \
+"../../../../lab6_proj.srcs/sources_1/new/clock_divider.v" \
+"../../../../lab6_proj.srcs/sim_1/new/bin8bitcntr_tb.v" \
+"../../../../lab6_proj.srcs/sim_1/new/graycntr_3bit_tb.v" \
+"../../../../lab6_proj.srcs/sim_1/new/decoder_tb.v" \
+"../../../../lab6_proj.srcs/sim_1/new/bincntr_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

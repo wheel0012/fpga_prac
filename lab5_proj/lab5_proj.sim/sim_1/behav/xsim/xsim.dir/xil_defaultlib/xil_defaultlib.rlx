@@ -1,0 +1,11 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sim_1/new/sync_async_reset_tb.v,1728015916,verilog,,,,sync_async_reset_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sim_1/new/tff_cascade_tb.v,1728013489,verilog,,C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sim_1/new/sync_async_reset_tb.v,,tff_cascade_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sim_1/new/tff_tb.v,1728011094,verilog,,C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sim_1/new/tff_cascade_tb.v,,tff_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sources_1/new/sync_async_reset.v,1728015794,verilog,,C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sim_1/new/tff_tb.v,,sync_async_reset,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sources_1/new/tff.v,1728010834,verilog,,C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sources_1/new/tff_cascade.v,,tff,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sources_1/new/tff_cascade.v,1728013218,verilog,,C:/Users/wheel/vhdl_prac/lab5_proj/lab5_proj.srcs/sources_1/new/sync_async_reset.v,,tff_cascade,,,,,,,,

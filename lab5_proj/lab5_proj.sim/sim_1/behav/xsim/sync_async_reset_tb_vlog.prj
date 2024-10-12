@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab5_proj.srcs/sources_1/new/tff.v" \
+"../../../../lab5_proj.srcs/sources_1/new/tff_cascade.v" \
+"../../../../lab5_proj.srcs/sources_1/new/sync_async_reset.v" \
+"../../../../lab5_proj.srcs/sim_1/new/tff_tb.v" \
+"../../../../lab5_proj.srcs/sim_1/new/tff_cascade_tb.v" \
+"../../../../lab5_proj.srcs/sim_1/new/sync_async_reset_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

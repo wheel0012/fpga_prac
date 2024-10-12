@@ -1,0 +1,15 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sim_1/new/bin8bitcntr_tb.v,1728620156,verilog,,C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sim_1/new/graycntr_3bit_tb.v,,bin8bitcntr_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sim_1/new/bincntr_tb.v,1728626501,verilog,,,,bincntr_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sim_1/new/decoder_tb.v,1728623948,verilog,,C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sim_1/new/bincntr_tb.v,,decoder_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sim_1/new/graycntr_3bit_tb.v,1728624684,verilog,,C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sim_1/new/decoder_tb.v,,graycntr_3bit_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/bin8bitcntr.v,1728630730,verilog,,C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/graycntr_3bit.v,,bin8bitcntr,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/bincntr.v,1728629748,verilog,,C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/clock_divider.v,,bincntr,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/clock_divider.v,1728630680,verilog,,C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sim_1/new/bin8bitcntr_tb.v,,clock_divider,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/decoder3x8.v,1728624049,verilog,,C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/bincntr.v,,decoder3x8,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/graycntr_3bit.v,1728626139,verilog,,C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/decoder3x8.v,,graycntr_3bit,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/jkff.v,1728624979,verilog,,C:/Users/wheel/vhdl_prac/lab6_proj/lab6_proj.srcs/sources_1/new/bin8bitcntr.v,,jkff,,,,,,,,
