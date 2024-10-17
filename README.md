@@ -43,7 +43,8 @@ build 4bit binary counter
 * Lab 6.
 build 8bit binary counter, 3bit gray code counter, 4bit binary counter using built-in clock generator
 
-
+* Chapter 7.
+build 4bit siso, sipo, piso, pipo shift register
 
 
 
