@@ -1,0 +1,23 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/pipo_reg_2_tb.v,1729183353,verilog,,,,pipo_reg_2_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/piso_reg_2_tb.v,1729180739,verilog,,,,piso_reg_2_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/piso_reg_tb.v,1729178873,verilog,,,,piso_reg_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/sipo_reg_2_tb.v,1729176717,verilog,,,,sipo_reg_2_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/sipo_reg_tb.v,1729175475,verilog,,,,sipo_reg_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/siso_reg_2_tb.v,1729174428,verilog,,,,siso_reg__2_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/siso_reg_tb.v,1729174290,verilog,,,,siso_reg_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/imports/new/dff_tb.v,1729169249,verilog,,,,dff_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/dff.v,1729175767,verilog,,C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/pipo_reg.v,,dff,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/pipo_reg.v,1729181758,verilog,,C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/pipo_reg_tb.v,,pipo_reg,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/pipo_reg_2.v,1729183324,verilog,,C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/pipo_reg_2_tb.v,,pipo_reg_2,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/pipo_reg_tb.v,1729181785,verilog,,,,pipo_reg_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/piso_reg.v,1729179280,verilog,,C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/piso_reg_tb.v,,piso_reg,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/piso_reg_2.v,1729180193,verilog,,C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/piso_reg_2_tb.v,,piso_reg_2,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/sipo_reg.v,1729175309,verilog,,C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/sipo_reg_tb.v,,sipo_reg,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/sipo_reg_2.v,1729176650,verilog,,C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/sipo_reg_2_tb.v,,sipo_reg_2,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/siso_reg.v,1729171250,verilog,,C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/siso_reg_tb.v,,siso_reg,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sources_1/new/siso_reg_2.v,1729174423,verilog,,C:/Users/wheel/vhdl_prac/Chapter7/Chapter7.srcs/sim_1/new/siso_reg_2_tb.v,,siso_reg_2,,,,,,,,
