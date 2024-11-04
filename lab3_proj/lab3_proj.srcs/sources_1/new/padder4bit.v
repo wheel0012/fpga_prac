@@ -44,7 +44,7 @@ module padder4bit(
     wire overflow_detect;
     assign overflow_detect = c4 ^ c3;
     
-    fa_n_mux uut_0 (.a(in_a[0]), .b(fa_b[0]), .cin(c0), .s(out[0]), .cout(c1));
+    fa_n_mux uut_0 (.a(in_a[0]), .b(fa_b[0]), .cin(0), .s(out[0]), .cout(c1));
     fa_n_mux uut_1 (.a(in_a[1]), .b(fa_b[1]), .cin(c1), .s(out[1]), .cout(c2));
     fa_n_mux uut_2 (.a(in_a[2]), .b(fa_b[2]), .cin(c2), .s(out[2]), .cout(c3));
     fa_n_mux uut_3 (.a(in_a[3]), .b(fa_b[3]), .cin(c3), .s(out[3]), .cout(c4));

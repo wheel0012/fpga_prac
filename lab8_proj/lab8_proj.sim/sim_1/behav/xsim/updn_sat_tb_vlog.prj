@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab8_proj.srcs/sources_1/new/clk_divider.v" \
+"../../../../lab8_proj.srcs/sources_1/new/jkff.v" \
+"../../../../lab8_proj.srcs/sources_1/new/mux2x1.v" \
+"../../../../lab8_proj.srcs/sources_1/new/sync3bitUPDNcntr.v" \
+"../../../../lab8_proj.srcs/sources_1/new/sync_updn_satcntr.v" \
+"../../../../lab8_proj.srcs/sim_1/new/updn_sat_tb.v" \
+"../../../../lab8_proj.srcs/sim_1/new/ring_tb.v" \
+"../../../../lab8_proj.srcs/sim_1/new/sync3bitUPDNcntr_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
