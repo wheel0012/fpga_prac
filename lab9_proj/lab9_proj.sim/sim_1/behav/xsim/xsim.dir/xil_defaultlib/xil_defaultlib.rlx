@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wheel/vhdl_prac/lab9_proj/lab9_proj.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab9_proj/lab9_proj.srcs/sim_1/new/bcd_cntr_tb.v,1731042526,verilog,,,,bcd_cntr_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab9_proj/lab9_proj.srcs/sim_1/new/jkff_tb.v,1731042225,verilog,,,,jkff_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab9_proj/lab9_proj.srcs/sources_1/new/bcd_cntr.v,1731044250,verilog,,C:/Users/wheel/vhdl_prac/lab9_proj/lab9_proj.srcs/sources_1/new/jkff.v,,bcd_cntr,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab9_proj/lab9_proj.srcs/sources_1/new/jkff.v,1731044039,verilog,,C:/Users/wheel/vhdl_prac/lab9_proj/lab9_proj.srcs/sim_1/new/bcd_cntr_tb.v,,jkff,,,,,,,,

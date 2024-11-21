@@ -1,0 +1,20 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sim_1/imports/new/bin4bitcntr_tb.v,1731331637,verilog,,,,bin4bitcntr_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sim_1/new/jkff_tb.v,1731322996,verilog,,,,jkff_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sim_1/new/johnson_cntr_tb.v,1731376185,verilog,,,,johnson_cntr_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sim_1/new/mod_m_sync_cntr_tb.v,1731338994,verilog,,,,mod_m_sync_cntr_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sim_1/new/modulo_m_cntr_tb.v,1731333637,verilog,,,,modulo_m_cntr_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sim_1/new/ringcntr_tb.v,1731374935,verilog,,,,ringcntr_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/bin4bitcntr.v,1731331537,verilog,,C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/clk_divider.v,,bin4bitcntr,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/clk_divider.v,1731329903,verilog,,C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/jkff_init_rst.v,,clk_divider,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/jkff.v,1731320046,verilog,,C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/mod_m_sync_cntr.v,,jkff,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/jkff_clr.v,1731334821,verilog,,C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/modulo_m_cntr.v,,jkff_clr,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/jkff_init_rst.v,1731374721,verilog,,C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/johnson_cntr.v,,jkff_init_rst,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/johnson_cntr.v,1731376402,verilog,,C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sim_1/new/johnson_cntr_tb.v,,johnson_cntr,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/mod_m_sync_cntr.v,1731340176,verilog,,C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sim_1/new/mod_m_sync_cntr_tb.v,,mod_m_sync_cntr,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/modulo_m_cntr.v,1731335527,verilog,,C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sim_1/new/modulo_m_cntr_tb.v,,modulo_m_cntr,,,,,,,,
+C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sources_1/new/ringcntr.v,1731376066,verilog,,C:/Users/wheel/vhdl_prac/Chapter8/Chapter8.srcs/sim_1/new/ringcntr_tb.v,,ringcntr,,,,,,,,
