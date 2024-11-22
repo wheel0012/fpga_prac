@@ -34,7 +34,7 @@ module fnd_contr(
     //1ms마다 digit 변경
     always @(posedge clk) begin
         if(!reset) digit <= 8'b0000_0001;
-        else digit <= {{0},{0},{0},{0},digit[0], digit[3:1]};
+        else digit <= {{digit[0]}, {digit[7:1]}};
     
     end
     
@@ -45,10 +45,11 @@ module fnd_contr(
         end
         
         case (digit)
-            8'b0000_0001: seg_data <= fnd_decode(in_a);
-            8'b1000_0000: seg_data <= fnd_decode(in_b);
-            8'b0100_0000: seg_data <= fnd_decode(result/10);
-            8'b0010_0000: seg_data <= fnd_decode(result%10);
+            8'b0001_0000: seg_data <= fnd_decode(in_a);
+            8'b0000_1000: seg_data <= fnd_decode(in_b);
+            8'b0000_0100: seg_data <= fnd_decode(result/10);
+            8'b0000_0010: seg_data <= fnd_decode(result%10);
+            default: seg_data <= 8'd0;
         endcase
     end 
     

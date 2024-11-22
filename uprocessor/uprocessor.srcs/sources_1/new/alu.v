@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 2024/11/21 19:26:07
+// Create Date: 2024/11/22 20:28:33
 // Design Name: 
 // Module Name: alu
 // Project Name: 
@@ -19,15 +19,17 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
-module alu(
-    input [7:0] in_a, 
-    input [7:0] in_b,
-    input [2:0] op,
-    output reg [7:0] q
+module alu #(parameter BIT_WIDTH = 8, OPCODE_WIDTH = 3)(
+    input [BIT_WIDTH-1:0] in_a, 
+    input [BIT_WIDTH-1:0] in_b,
+    input [OPCODE_WIDTH-1:0] op,
+    output reg [BIT_WIDTH-1:0] q
     );
-
+    
+/// includes    
 `include "defines.v"
+///
+
 
     //from risc-v github. better propagation delay.
     wire [7:0] sub_res_w = in_a - in_b;
@@ -42,10 +44,10 @@ module alu(
                 q <= sub_res_w;
             end
             `ALU_INC: begin // Increment A
-                q <= in_a + 1;
+                q <= in_a + in_b;
             end
             `ALU_DEC: begin // Decrement A
-                q <= in_a - 1;
+                q <= in_a - in_b;
             end
             `ALU_LT: begin // LT(nonzero if A < B)
                 q <= (in_a < in_b) ? 1 : 0;

@@ -37,7 +37,7 @@ wire clk_out;
 bcd_cntr(clk_out,rstb, q);
 
 //클록 디바이더. 1Hz로 변경
-clk_divider #(49999999) divider (clk, clk_out);
+clk_divider #(4999_9999) divider (clk, clk_out);
 
 //bcd 카운터 출력 디코딩
 decoder4x16 (q, sel);

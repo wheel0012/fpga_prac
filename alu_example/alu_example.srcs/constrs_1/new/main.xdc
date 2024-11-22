@@ -16,9 +16,9 @@ set_property -dict {PACKAGE_PIN T21 IOSTANDARD LVCMOS33} [get_ports in_b[2]]
 set_property -dict {PACKAGE_PIN U21 IOSTANDARD LVCMOS33} [get_ports in_b[1]]
 set_property -dict {PACKAGE_PIN V22 IOSTANDARD LVCMOS33} [get_ports in_b[0]]
 
-set_property -dict {PACKAGE_PIN T21 IOSTANDARD LVCMOS33} [get_ports op[2]]
-set_property -dict {PACKAGE_PIN U21 IOSTANDARD LVCMOS33} [get_ports op[1]]
-set_property -dict {PACKAGE_PIN V22 IOSTANDARD LVCMOS33} [get_ports op[0]]
+set_property -dict {PACKAGE_PIN N20 IOSTANDARD LVCMOS33} [get_ports op[2]]
+set_property -dict {PACKAGE_PIN M21 IOSTANDARD LVCMOS33} [get_ports op[1]]
+set_property -dict {PACKAGE_PIN M22 IOSTANDARD LVCMOS33} [get_ports op[0]]
 
 set_property -dict {PACKAGE_PIN P14 IOSTANDARD LVCMOS33} [get_ports fnd_digit[7]]
 set_property -dict {PACKAGE_PIN R14 IOSTANDARD LVCMOS33} [get_ports fnd_digit[6]]

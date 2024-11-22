@@ -20,14 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module main #(parameter divide = 49999)( 
+module main_for_test #(parameter divide = 49999)( 
     input [7:0] in_a,
     input [7:0] in_b,
     input [2:0] op,
     input clk,
     input reset,
-    output [7:0] fnd_digit,
-    output [7:0] fnd_value
+    output [7:0] q
     );
     
     wire [7:0] q;
@@ -38,13 +37,13 @@ module main #(parameter divide = 49999)(
         );
     
     
-    alu(
+    alu alu0(
         in_a, 
         in_b, 
         op, 
         q); 
     
-    fnd_contr(
+    /*fnd_contr(
         in_a, 
         in_b, 
         q,
@@ -52,6 +51,6 @@ module main #(parameter divide = 49999)(
         reset,
         fnd_digit, 
         fnd_value
-        );
+        );*/
         
 endmodule

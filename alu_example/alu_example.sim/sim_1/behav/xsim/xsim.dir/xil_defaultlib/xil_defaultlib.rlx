@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wheel/vhdl_prac/alu_example/alu_example.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/wheel/vhdl_prac/alu_example/alu_example.srcs/sim_1/new/main_tb.v,1732261179,verilog,,,,main_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/alu_example/alu_example.srcs/sources_1/new/alu.v,1732277185,verilog,,C:/Users/wheel/vhdl_prac/alu_example/alu_example.srcs/sources_1/new/clk_divider.v,C:/Users/wheel/vhdl_prac/alu_example/alu_example.srcs/sources_1/new/defines.v,alu,,,,,,,,
+C:/Users/wheel/vhdl_prac/alu_example/alu_example.srcs/sources_1/new/clk_divider.v,1732187573,verilog,,C:/Users/wheel/vhdl_prac/alu_example/alu_example.srcs/sources_1/new/main_for_test.v,,clk_divider,,,,,,,,
+C:/Users/wheel/vhdl_prac/alu_example/alu_example.srcs/sources_1/new/defines.v,1732276787,verilog,,,,,,,,,,,,
+C:/Users/wheel/vhdl_prac/alu_example/alu_example.srcs/sources_1/new/main_for_test.v,1732260970,verilog,,C:/Users/wheel/vhdl_prac/alu_example/alu_example.srcs/sim_1/new/main_tb.v,,main_for_test,,,,,,,,

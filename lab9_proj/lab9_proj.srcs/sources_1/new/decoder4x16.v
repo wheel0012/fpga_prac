@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module decoder4x16 (input [3:0] in, output reg [15:0] out);
+module decoder4x16 (input [3:0] in, output [15:0] out);
 
 assign out = in == 4'b1111 ? 4'h8000 :
             4'b1110 ? 4'h4000 :

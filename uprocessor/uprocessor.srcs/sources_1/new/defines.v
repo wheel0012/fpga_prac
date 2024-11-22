@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 2024/11/12 18:59:46
+// Create Date: 2024/11/22 20:31:58
 // Design Name: 
-// Module Name: full_adder
+// Module Name: defines
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module full_adder(
+module defines(
 
     );
 endmodule
