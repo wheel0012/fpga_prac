@@ -19,8 +19,11 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
-module mux #(parameter BIT_WIDTH)(
-
-    );
+//variable width
+module mux #(parameter WIDTH = 8, NUM_INPUTS = 4) (
+    input [WIDTH*NUM_INPUTS-1:0] in, // Flattened inputs
+    input [$clog2(NUM_INPUTS)-1:0] sel, // Selector
+    output wire [WIDTH-1:0] out
+);
+    assign out = in[sel*WIDTH +: WIDTH];
 endmodule

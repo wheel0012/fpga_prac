@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wheel/vhdl_prac/lab11_proj/lab11_proj.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab11_proj/lab11_proj.srcs/sim_1/new/simul_1.v,1732857446,verilog,,,,simul_1,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab11_proj/lab11_proj.srcs/sources_1/imports/new/clk_divider.v,1732828858,verilog,,C:/Users/wheel/vhdl_prac/lab11_proj/lab11_proj.srcs/sources_1/new/schoolbell_fsm.v,,clk_divider,,,,,,,,
+C:/Users/wheel/vhdl_prac/lab11_proj/lab11_proj.srcs/sources_1/new/schoolbell_fsm.v,1732857726,verilog,,C:/Users/wheel/vhdl_prac/lab11_proj/lab11_proj.srcs/sim_1/new/simul_1.v,,schoolbell_fsm,,,,,,,,

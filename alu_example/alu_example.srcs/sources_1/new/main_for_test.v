@@ -43,7 +43,7 @@ module main_for_test #(parameter divide = 49999)(
         op, 
         q); 
     
-    /*fnd_contr(
+    /*fnd_contr contr1(
         in_a, 
         in_b, 
         q,

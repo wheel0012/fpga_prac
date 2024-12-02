@@ -38,13 +38,13 @@ module main #(parameter divide = 49999)(
         );
     
     
-    alu(
+    alu alu1(
         in_a, 
         in_b, 
         op, 
         q); 
     
-    fnd_contr(
+    fnd_contr contr1(
         in_a, 
         in_b, 
         q,

@@ -27,22 +27,26 @@ module traffic_signal_ctrl(
     output lcd_rs,
     output lcd_rw,
     output lcd_e
+    output reg EW_R,
+    output reg EW_Y,
+    output reg EW_G,
+    output reg SN_R,
+    output reg SN_Y,
+    output reg SN_G
+    output reg [7:0] digit,
+    output reg [7:0] seg_data
     );
     
-    reg [11:0] year;
-    reg [3:0] month;
-    reg [4:0] day;
-    reg [4:0] hour;
-    reg [5:0] min;
-    reg [5:0] sec;
     
     wire clk_1hz;
+    wire clk_q1hz;
     wire clk_100hz;
     wire clk_1khz;
     wire clk_10khz;
     wire clk_1mhz;
     
-    clk_divider #(4999_9999) div1hz (clk, clk_1hz, reset);
+    clk_divider #(4999_9999 * 4) div_quater_hz (clk, clk_1hz, reset);
+    clk_divider #(4999_9999) div_1hz (clk, clk_q1hz, reset);
     clk_divider #(49_9999) div100hz (clk, clk_100hz, reset);
     clk_divider #(4_9999) div1khz (clk, clk_1khz, reset);
     clk_divider #(4999) div10khz (clk, clk_10khz, reset);
@@ -60,10 +64,12 @@ module traffic_signal_ctrl(
     //FSM
     
     parameter [1:0] init_writing =0, lcd_writing = 1, clear_writing = 2;
+    
     reg [1:0] state, next;
     
     wire init, lcd, clear;
     
+    //각 상태 입력값
     assign init = (init_cnt == 9'b0_0000_1101);
     assign lcd = (lcd_cnt == 9'b0_0010_0111);
     assign clear = (clear_cnt == 9'b0_0000_0011);
@@ -81,16 +87,72 @@ module traffic_signal_ctrl(
         else state <= next;
     end
     
-    //lcd control
+    //FSM traffic
+    parameter [1:0] GR_state =0, YR_state = 1, RG_state = 2, RY_state = 3;
     
-    assign lcd_rw = 1'b0;
-    reg lcd_e_signal;
-    always @(*) begin
-        if(state == init_writing) lcd_e_signal <= init_cnt[0];
-        else if(state == lcd_writing) lcd_e_signal <= lcd_cnt[0];
-        else if (state == clear_writing) lcd_e_signal <= clear_cnt[0];
-    end 
-   
+    reg [1:0] state_traf, next_traf;
+    
+    reg [2:0] timer_tl, timer_ts;
+    wire tl, ts;
+    
+    assign tl = ~(timer_tl == 3'b100;
+    assign ts = ~(timer_ts == 3'b010;
+    
+    always @(posedge clk_1hz, negedge reset) begin
+        if(!reset) begin
+            timer_tl <= 3'd0;
+            timer_ts <= 3'd0;
+        end
+        else begin
+            case(state_traf)
+                GR : begin
+                    timer_tl <= timer_tl + 1'b1;
+                    timer_ts <= 3'b000;
+                end
+                YR : begin
+                    timer_tl <= 3'b000;
+                    timer_ts <= timer_ts + 1'b1;
+                end
+                RG : begin
+                    timer_tl <= timer_tl + 1'b1;
+                    timer_ts <= 3'b000;
+                end
+                RY : begin
+                    timer_tl <= 3'b000;
+                    timer_ts <= timer_ts + 1'b1;
+                    end
+            endcase
+        end
+    end
+    
+    always @(posedge clk_1hz, negedge reset) begin
+        if(!reset) begin
+            digit <= 8'b0;
+        end
+        else begin
+            case(state_traf)
+                GR : begin
+                    if(itmer_tl == 3'b000) digit <= 8'b1000_0000;
+                    else digit <= {digit[0], digit[7:1]};
+                end
+                YR : begin
+                    if(itmer_ts == 3'b000) digit <= 8'b1000_0000;
+                    else digit <= {digit[0], digit[7:1]};
+                end
+                RG : begin
+                    if(itmer_tl == 3'b000) digit <= 8'b0000_1000;
+                    else digit <= {digit[0], digit[7:1]};
+                end
+                RY : begin
+                    if(itmer_ts == 3'b000) digit <= 8'b0000_1000;
+                    else digit <= {digit[0], digit[7:1]};
+                    end
+            endcase
+        end
+    end
+    
+    reg lcd_init;
+    
    assign lcd_e = lcd_e_signal;
    
    assign lcd_rs = (state==lcd_writing) && (~(lcd_state == 8'h0A));

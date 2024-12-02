@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"cpu_test_func_impl.v" \
+"../../../../../uproc_sample.srcs/sim_1/new/cpu_tb.v" \
+
+# Do not sort compile order
+nosort

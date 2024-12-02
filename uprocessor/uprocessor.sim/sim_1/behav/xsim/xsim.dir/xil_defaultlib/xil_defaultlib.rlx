@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wheel/vhdl_prac/uprocessor/uprocessor.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/wheel/vhdl_prac/uprocessor/uprocessor.srcs/sim_1/new/mux_3x1_tb.v,1733037990,verilog,,,,mux_3x1_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/uprocessor/uprocessor.srcs/sim_1/new/mux_tb.v,1733037491,verilog,,,,mux_tb,,,,,,,,
+C:/Users/wheel/vhdl_prac/uprocessor/uprocessor.srcs/sources_1/new/mux.v,1733037160,verilog,,C:/Users/wheel/vhdl_prac/uprocessor/uprocessor.srcs/sources_1/new/mux_3x1_10bitwidth_block.v,,mux,,,,,,,,
+C:/Users/wheel/vhdl_prac/uprocessor/uprocessor.srcs/sources_1/new/mux_2x1_4bitwidth_block.v,1733037731,verilog,,C:/Users/wheel/vhdl_prac/uprocessor/uprocessor.srcs/sim_1/new/mux_tb.v,,mux_2x1_4bitwidth_block,,,,,,,,
+C:/Users/wheel/vhdl_prac/uprocessor/uprocessor.srcs/sources_1/new/mux_3x1_10bitwidth_block.v,1733037941,verilog,,C:/Users/wheel/vhdl_prac/uprocessor/uprocessor.srcs/sim_1/new/mux_3x1_tb.v,,mux_3x1_10bitwidth_block,,,,,,,,

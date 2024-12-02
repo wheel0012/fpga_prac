@@ -40,24 +40,35 @@ module alu #(parameter BIT_WIDTH = 8, OPCODE_WIDTH = 3)(
             `ALU_ADD: begin // Addition
                 q <= (in_a + in_b);
             end
+            
             `ALU_SUB: begin // Subtraction
                 q <= sub_res_w;
             end
-            `ALU_INC: begin // Increment A
-                q <= in_a + in_b;
-            end
+            
+            //`ALU_INC: begin // Increment A
+              //  q <= in_a + in_b;
+            //end
+            
+            `ALU_PASS: begin
+                q<=in_a;
+            end 
+            
             `ALU_DEC: begin // Decrement A
                 q <= in_a - in_b;
             end
+            
             `ALU_LT: begin // LT(nonzero if A < B)
                 q <= (in_a < in_b) ? 1 : 0;
             end
+            
             `ALU_NOT: begin // NOT A
                 q <= ~in_a;
             end
+            
             `ALU_AND: begin // Logic AND
                 q <= in_a & in_b;
             end
+            
             `ALU_OR: begin // Logic OR
                 q <= in_a | in_b;
             end
